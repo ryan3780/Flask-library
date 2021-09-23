@@ -1,0 +1,21 @@
+chdir = /home/elice/2--
+app
+wsgi
+
+주의 요함
+
+nginx 사용 -> wsgi -> 80 포트 -> 사용자가 많아지면 부하가 덜 해진다.
+
+TDD 
+
+backend -> test framework로 테스트를 진행
+
+swager로 api만들어서 확인 해보기
+
+-----------------------------------------------------------
+1. 회원 탈퇴
+2. 댓글 수정, 삭제
+3. https + url_query 입력시 보여지는 
+예시) http://kdt-1st-project-38.koreacentral.cloudapp.azure.com/book-info/12
+--> flask before_request or session으로 막기 // 어떤게 좋으려나
+
