@@ -48,6 +48,10 @@ def login():
 
 		password = password.encode('utf-8')
 		username = User.query.filter_by(email = email).first()
+		if username is None:
+			flash('이메일과 비밀번호를 다시 입력해주세요.')	
+			return redirect(url_for('hello')) 
+			
 		check_password = bcrypt.checkpw(password, username.password.encode('utf-8'))
 
 		if username is not None and check_password:

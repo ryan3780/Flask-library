@@ -35,6 +35,7 @@
                             </div>
                         </form>
                     </div>
+                    <button onclick="testinfo()" class="btn btn-primary" style = 'display: block; margin: auto;'>둘러 보기</button>
                 </div>
             </div>
         </div>
@@ -46,5 +47,15 @@
     </script>
     {%endif%}
     {%endwith%}
+    <script>
+         function testinfo(){
+            email_input = document.getElementById('email');
+            pwd = document.getElementById('password');
+            email_input.value = 'admin2@admin.com';
+            pwd.value = 'rmaghd10!!'
+            submit = document.getElementsByName('submit');
+            submit[0].click()
+        }
+    </script>
 </body>
 </html>
