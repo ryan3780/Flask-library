@@ -1,4 +1,4 @@
-## <a href='http://ec2-3-36-55-158.ap-northeast-2.compute.amazonaws.com' target="_blank" rel="noopener">Flask-library</a>
+## Ctrl 누르고  => <a href='http://ec2-3-36-55-158.ap-northeast-2.compute.amazonaws.com' target="_blank" rel="noopener">Flask-library</a>
 
 👉 주요 사용 기술은 아래와 같습니다.  
 
