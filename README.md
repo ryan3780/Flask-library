@@ -1,24 +1,17 @@
-# Flask-library
-👉 파이썬 패키지 버전은 아래와 같습니다.  
-
-Flask == 1.1.2  
-SQLAlchemy == 1.3.23  
-PyMySQL == 1.0.2  
-python-dotenv == 0.15.0  
-Flask-SQLAlchemy == 2.4.4  
-bcrypt == 3.2.0  
-Flask-Login == 0.5.0  
-cryptography == 3.4.5  
-email-validator == 1.1.2  
-
 👉 주요 사용 기술은 아래와 같습니다.  
 
 Flask  
-Flask-SQLAlchemy  
-PyMySQL  
+Flask-SQLAlchemy   
 javascript  
 MySQL  
 HTML + Flask Jinja2  
+
+👉 핵심 기능
+
+* 로그인 / 로그아웃  
+* 회원가입  
+* 책 대여/반납  
+* 책 평점/댓글 남기기  
 
 ### 2021-09-09 업데이트 내용  
 ⏰ 웹페이지를 만들면서 느낀점
