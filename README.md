@@ -1,6 +1,6 @@
 ## Ctrl 누르고  => <a href='http://ec2-3-36-55-158.ap-northeast-2.compute.amazonaws.com' target="_blank" rel="noopener">Flask-library</a>
 
-👉 주요 사용 기술은 아래와 같습니다.  
+### 👉 주요 사용 기술은 아래와 같습니다.  
 
 Flask  
 Flask-SQLAlchemy   
@@ -8,12 +8,34 @@ javascript
 MySQL  
 HTML + Flask Jinja2  
 
-👉 핵심 기능
+### 👉 핵심 기능
 
 * 로그인 / 로그아웃  
 * 회원가입  
 * 책 대여/반납  
-* 책 평점/댓글 남기기  
+* 책 평점/댓글 남기기
+
+### Tree 구조
+```
+lib/  
+┣ static/  
+┃ ┣ css/  
+┃ ┣ img/  
+┃ ┗ js/  
+┣ templates/  
+┃ ┣ base.html           
+┃ ┣ book_info.html  
+┃ ┣ checkin.html  
+┃ ┣ login.html  
+┃ ┣ main.html  
+┃ ┣ register.html  
+┃ ┗ rental_log.html  
+┣ app.py  
+┣ form.py  
+┣ models.py  
+┣ pyvenv.cfg  
+┗ requirements.txt 
+```
 
 ### 2021-09-09 업데이트 내용  
 ⏰ 웹페이지를 만들면서 느낀점
